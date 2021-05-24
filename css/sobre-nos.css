@@ -1,0 +1,55 @@
+@import url(/css/base.css);
+
+#sobre-nos {
+    color: var(--cor-secundaria);
+}
+.container-fluid {
+    width: 91%;
+    margin-top: 132px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#row1 {
+    padding: 10px;
+    margin-top: 10px;
+}
+#row2 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+/* .col-sm-2 {
+    position: relative;
+    width: 50%;
+} */
+  
+img {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+img {
+    border-radius: 8px;
+}
+  
+.col-sm-2:hover img {
+    opacity: 0.3;
+}
+.col-sm-3:hover img {
+    opacity: 0.3;
+}
+#texto-2 {
+    text-align: right;
+}
+.texto-final {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    text-align: center;
+}

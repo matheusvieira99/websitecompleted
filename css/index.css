@@ -1,0 +1,64 @@
+@import url(/css/base.css);
+
+#inicio {
+    color: var(--cor-secundaria);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: var(--cor-principal);
+    size: 60px;
+}
+
+#texto-principal2 {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+img {
+    border-radius: 8px
+}
+img:hover {
+    box-shadow: 0 0 2px 1px var(--cor-principal);
+    opacity: 0.5;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    background: var(--cor-secundaria);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 15px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#texto-imagem1 {
+    text-align: center;
+}
+#texto-imagem2 {
+    text-align: center;
+}
+#texto-imagem3 {
+    text-align: center;
+}
+.texto-final {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+#texto-principal1 {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 125px;
+}
+.rodape {
+    margin-top: 55px;
+}

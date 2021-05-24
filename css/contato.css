@@ -1,0 +1,30 @@
+@import url(/css/base.css);
+
+#contato {
+    color: var(--cor-secundaria);
+}
+
+.container-fluid {
+    margin-top: 155px;
+    max-width: 380px;
+    border: 1px solid #ddd;
+    background-color: var(--cor-principal);
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+    min-height: 90%;
+    margin-bottom: 15px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.nome-email {
+    color: var(--cor-secundaria);
+}
+.texto-final {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 155px;
+}
